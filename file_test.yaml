@@ -1,0 +1,6 @@
+---
+- name: Testing AWX by creating a file in targetted VM
+  hosts: all
+  tasks:
+    - name: Simple shell cmd for test
+      shell: echo "AWX Worked" >> /root/hostname_file
