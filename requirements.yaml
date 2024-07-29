@@ -3,7 +3,6 @@ roles:
   - name: geerlingguy.nginx
   - name: geerlingguy.mysql
   - name: gantsign.oh-my-zsh
-  - name: geerlingguy.postgresql
 
 collections:
   - name: community.general
