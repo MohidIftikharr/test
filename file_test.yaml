@@ -5,7 +5,7 @@
     - geerlingguy.nginx
     - geerlingguy.mysql
     - gantsign.oh-my-zsh
-    - ANXS.postgresql
+    - geerlingguy.postgresql
   tasks:
     - name: Simple shell cmd for test
       shell: echo "AWX Worked" >> /root/hostname_file
